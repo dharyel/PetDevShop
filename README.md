@@ -5,7 +5,8 @@ Projeto Node com Typescript utilizando express,mustache e nodemon do curso B7WEB
 <li>nodemon</li>
 <li>typescript</li>
 <li>ts-node</li>
-caso não as tenha, instalar utilizando `npm install -g nodemon typescript ts-node`
+#### caso não as tenha, instalar utilizando 
+`npm install -g nodemon typescript ts-node`
 
 ### Instalação das dependências
 `npm install`
