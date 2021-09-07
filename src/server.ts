@@ -19,7 +19,7 @@ server.use(express.static(path.join(__dirname, '../public')));
 server.use(mainRoutes);
 
 server.use((req:Request, res:Response) => {
-    res.send("Página não encontrada - ERRO 404");
+    res.render("pages/404");
 });
 
 server.listen(process.env.PORT, () => {console.log(`servidor iniciado na porta ${process.env.PORT} em ${new Date()}`)});
